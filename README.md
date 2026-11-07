@@ -66,6 +66,38 @@ npm run card -- --kind market --title "KLCI naik 0.8%" --subtitle "Penutupan Jum
 
 Needs Playwright with Chromium installed.
 
+## Video editing tools
+
+For short-form video (subtitles, titles, overlays):
+
+- **ffmpeg**: cut, join and export video
+- **Whisper** (`faster-whisper`): speech to text with word timestamps
+- **HyperFrames** (`npx hyperframes`): titles, moving text and overlays written in HTML, rendered to MP4
+
+Setup (cloud sessions get this from the environment's setup script):
+
+```bash
+npm install
+python3 -m venv /opt/video-venv
+/opt/video-venv/bin/pip install -r requirements-video.txt
+```
+
+Transcribe a clip (writes `.srt` and word-level `.words.json`, filler words removed):
+
+```bash
+/opt/video-venv/bin/python scripts/transcribe.py footage/clip.mp4 --lang ms
+```
+
+Render a HyperFrames project. In the cloud container, point it at the preinstalled browser:
+
+```bash
+export HYPERFRAMES_BROWSER_PATH=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome
+npx hyperframes init my-video --example blank --non-interactive
+cd my-video && npx hyperframes render
+```
+
+On a Mac (M1–M4) use `mlx-whisper` instead of `faster-whisper` for faster transcription.
+
 ## Using it in code
 
 ```ts

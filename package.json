@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "hyperframes": "^0.9.19",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
