@@ -55,6 +55,17 @@ Past `scheduledFor` times and unknown targets are rejected before anything is cr
 Platform notes: Instagram and TikTok posts need media, and Instagram needs a Business
 account. Full API reference: <https://zernio.com/llms.txt>.
 
+## Image cards
+
+Render a branded 1080x1350 card (kinds: isu, market, kewangan, edukasi, santai) and
+optionally upload it to Zernio. It prints the public URL to use in `--media`:
+
+```bash
+npm run card -- --kind market --title "KLCI naik 0.8%" --subtitle "Penutupan Jumaat" --out card.png --upload
+```
+
+Needs Playwright with Chromium installed.
+
 ## Using it in code
 
 ```ts

@@ -5,7 +5,8 @@
   "scripts": {
     "zernio": "node --env-file-if-exists=.env --import tsx src/cli.ts",
     "typecheck": "tsc --noEmit",
-    "build": "tsc"
+    "build": "tsc",
+    "card": "node --env-file-if-exists=.env --import tsx src/card.ts"
   },
   "repository": {
     "type": "git",
