@@ -1,17 +1,28 @@
 # Affiliate content library
 
-Products and Threads posts used for Cik Alya affiliate promotion, kept for reuse.
+Two tables (CSV) of everything promoted for Cik Alya, kept for reuse. GitHub shows
+them as searchable tables; fetch the raw file to use the data in code.
 
-- `products.json`: each product's affiliate links (TikTok, Shopee), verified facts,
-  claims to avoid, the reply text used, and the dates it was posted.
-- `threads/*.json`: the exact thread text posted for each series. Each file is a list
-  of threads; each thread is a list of 3 parts (`threadItems`).
+| File | One row per | Key columns |
+|---|---|---|
+| `products.csv` | product | `product_id`, `name`, `category`, `tiktok_link`, `shopee_link`, `verified_facts`, `avoid_claims`, `reply_text`, `first_used`, `last_used`, `times_used` |
+| `threads.csv` | posted thread | `thread_id`, `series`, `product_id`, `scheduled_at_myt`, `part_1`–`part_3`, `reply_text`, `zernio_post_id`, `views`, `likes`, `replies`, `reposts` |
+
+`threads.product_id` links to `products.product_id`. List values inside a cell
+(facts, claims) are separated by ` | `. The engagement columns are filled in after
+the posts go live.
+
+Fetch example:
+
+```bash
+curl -sL https://raw.githubusercontent.com/Adib2024/Cik_Alya/main/content/affiliate/products.csv
+```
 
 ## Format that works
 
 - Thread = pure health tips: common habit, then the surprise ("tapi pakar kata..."),
   named source, practical steps, one natural Islamic touch. No product in the thread.
-- Product only in the auto-reply (`firstComment`), labelled "affiliate".
+- Product only in the auto-reply (Zernio `firstComment`), labelled "affiliate".
 - 3 dense parts per thread, natural lowercase Malay, "RM" always uppercase,
   no questions or calls to comment/share.
 
