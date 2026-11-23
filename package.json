@@ -1,0 +1,36 @@
+{
+  "name": "cik-alya",
+  "version": "1.0.0",
+  "description": "Cik Alya affiliate content tooling: Zernio social scheduling integration",
+  "scripts": {
+    "zernio": "node --env-file-if-exists=.env --import tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "card": "node --env-file-if-exists=.env --import tsx src/card.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adib2024/Cik_Alya.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adib2024/Cik_Alya/issues"
+  },
+  "homepage": "https://github.com/Adib2024/Cik_Alya#readme",
+  "dependencies": {
+    "@zernio/node": "^0.2.1528"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "hyperframes": "^0.9.19",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.9"
+  }
+}

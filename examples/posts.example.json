@@ -1,0 +1,16 @@
+[
+  {
+    "content": "New find! 🛍️ Link in bio. #affiliate #cikalya",
+    "targets": ["instagram"],
+    "media": ["https://example.com/product-photo.jpg"],
+    "scheduledFor": "2026-12-01T20:00:00+08:00",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  {
+    "content": "Weekend deal reminder ✨",
+    "targets": ["@miss_cikalya"],
+    "media": ["../media/deal.jpg"],
+    "scheduledFor": "2026-12-05T12:00:00+08:00",
+    "timezone": "Asia/Kuala_Lumpur"
+  }
+]
