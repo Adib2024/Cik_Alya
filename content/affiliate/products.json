@@ -1,0 +1,101 @@
+[
+  {
+    "id": "usmile-optical-white",
+    "name": "usmile Optical White (Natural Purple Corrector) toothpaste",
+    "category": "kesihatan gigi",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9PfrnCc36Hp-Kdt0A/",
+      "shopee": "https://s.shopee.com.my/3Vm3MgfyVw"
+    },
+    "verified_facts": ["ada fluoride (Fluoridated Toothpaste pada tiub)", "color corrector: cover rona kuning, kesan sementara, bukan pemutih"],
+    "avoid_claims": ["putih kekal", "memutihkan gigi"],
+    "reply_text": "kalau tengah cari ubat gigi yang ada fluoride, yang ni ramai beli sekarang. buat gigi nampak cerah sikit lepas berus (affiliate ya)",
+    "threads_file": "threads/usmile-ubat-gigi.json",
+    "used": ["2026-11-24", "2026-11-25", "2026-11-26"]
+  },
+  {
+    "id": "swiss-thomas-air-fryer-6-5l",
+    "name": "Swiss Thomas Digital Air Fryer 6.5L",
+    "category": "dapur / diet",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9PfB21wDkmL-VpVL2/",
+      "shopee": "https://s.shopee.com.my/7VIC96HxdW"
+    },
+    "verified_facts": ["1.3K+ sold in last 30 days (TikTok, 23 Nov 2026)", "komisen RM5.24 sejualan, ada free sample"],
+    "avoid_claims": ["Switzerland Technology (asal jenama tidak disahkan)", "harga flash sale (berubah)"],
+    "reply_text": "kalau tengah cari air fryer, yang ni ramai beli sekarang (affiliate ya)",
+    "threads_file": "threads/swiss-thomas-air-fryer.json",
+    "used": ["2026-11-24", "2026-11-25", "2026-11-26"]
+  },
+  {
+    "id": "omron-hem-7183t1-c",
+    "name": "Omron EZ BT Power HEM-7183T1-C (blood pressure monitor, upper arm)",
+    "category": "kesihatan / tekanan darah",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9PfS3pqfc2Q-WHIsB/",
+      "tiktok_alt": "https://vt.tiktok.com/ZS9PfStuqethA-kMEFC/",
+      "shopee": "https://s.shopee.com.my/2BGfnp3YQn"
+    },
+    "verified_facts": ["Omron Official Store", "clinically validated", "app OMRON Connect", "jenis lengan atas"],
+    "avoid_claims": ["tuntutan perubatan", "had 135/85 di rumah (tidak disahkan dalam CPG KKM)"],
+    "reply_text": "kalau nak beli alat ukur untuk rumah atau parents, yang ni dari Omron official store, jenis lengan atas, ada app untuk simpan bacaan (affiliate ya)",
+    "threads_file": "threads/omron-tekanan-darah.json",
+    "used": ["2026-11-30", "2026-12-01", "2026-12-02"]
+  },
+  {
+    "id": "autan-lotion-50ml",
+    "name": "Autan Losyen Anti Nyamuk 50ml (SC Johnson)",
+    "category": "kesihatan / denggi",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9PfAWddeStF-6eDNC/",
+      "shopee": "https://s.shopee.com.my/1qdpPm7jYh"
+    },
+    "verified_facts": ["20k+ sold di Shopee (23 Nov 2026); TikTok listing hanya 6 sold", "komisen TikTok 13.5% (RM1.75)"],
+    "avoid_claims": ["perlindungan 8 jam (tuntutan pengeluar)", "bahan aktif (tidak disahkan)"],
+    "reply_text": "kalau nak stok losyen nyamuk kat rumah, yang ni ramai beli (affiliate ya)",
+    "threads_file": "threads/autan-denggi.json",
+    "used": ["2026-12-03", "2026-12-04", "2026-12-05"]
+  },
+  {
+    "id": "vitahealth-vitamin-d3-1000",
+    "name": "VitaHealth Vitamin D3 1000IU (30 softgels)",
+    "category": "suplemen / vitamin D",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9Pff7SYHYaw-FYPuj/",
+      "shopee": "https://s.shopee.com.my/1gKPF47ljn"
+    },
+    "verified_facts": ["logo halal dan MAL14055008NCR pada gambar produk", "komisen TikTok 12% (RM4.51), ada free sample"],
+    "avoid_claims": ["strengthens immunity", "increases muscle strength"],
+    "reply_text": "kalau doktor cadangkan suplemen, yang ni ada logo halal dan nombor pendaftaran KKM (MAL), 1000 IU sebiji sehari. tanya doktor dulu ya (affiliate)",
+    "threads_file": "threads/vitamin-d.json",
+    "used": ["2026-12-06", "2026-12-09"]
+  },
+  {
+    "id": "blackmores-vitamin-d3-1000",
+    "name": "Blackmores Vitamin D3 1000IU (60 capsules)",
+    "category": "suplemen / vitamin D",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9PffsobgksJ-05Dfb/",
+      "shopee": "https://s.shopee.com.my/9KjqMzrYkD"
+    },
+    "verified_facts": ["BIG Pharmacy official store di Shopee", "No.1 best selling blackmores vitamin d3 1000iu, 6k+ sold, 1.4k ratings (23 Nov 2026)"],
+    "avoid_claims": ["tuntutan perubatan"],
+    "reply_text": "yang ni antara paling laku kat Shopee, 1000 IU sebiji sehari. tanya doktor dulu ya (affiliate)",
+    "threads_file": "threads/vitamin-d.json",
+    "used": ["2026-12-07", "2026-12-10"]
+  },
+  {
+    "id": "biolife-vita-d3-1000",
+    "name": "Bio-Life Vita D3 1000 (60 tablets; Shopee link is 2-pack)",
+    "category": "suplemen / vitamin D",
+    "links": {
+      "tiktok": "https://vt.tiktok.com/ZS9PfPhBYxQTs-0okG2/",
+      "shopee": "https://s.shopee.com.my/7fbcOINwJU"
+    },
+    "verified_facts": ["BIG Pharmacy official store di Shopee", "833 sold, 234 ratings (23 Nov 2026)"],
+    "avoid_claims": ["jenama tempatan (tidak disahkan)", "tuntutan perubatan"],
+    "reply_text": "pilihan lain kalau nak, Bio-Life Vita D3 1000. tanya doktor dulu ya (affiliate)",
+    "threads_file": "threads/vitamin-d.json",
+    "used": ["2026-12-08", "2026-12-11"]
+  }
+]
