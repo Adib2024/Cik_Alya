@@ -6,7 +6,8 @@
     "zernio": "node --env-file-if-exists=.env --import tsx src/cli.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc",
-    "card": "node --env-file-if-exists=.env --import tsx src/card.ts"
+    "card": "node --env-file-if-exists=.env --import tsx src/card.ts",
+    "affiliate-stats": "node --env-file-if-exists=.env --import tsx src/affiliate-stats.ts"
   },
   "repository": {
     "type": "git",

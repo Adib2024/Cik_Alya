@@ -31,3 +31,22 @@ curl -sL https://raw.githubusercontent.com/Adib2024/Cik_Alya/main/content/affili
 Before reposting, re-check: links still work, prices/stock, sold counts quoted in
 replies, and any statistics (dengue cases, survey numbers) are still current.
 Space repeats out (weeks, not days) and rewrite the hook so it is not a duplicate.
+
+## Daily automation
+
+A scheduled task runs every morning (10:43 MYT):
+
+1. `npm run affiliate-stats` refreshes status, times and engagement in `threads.csv`
+   and prints the account's golden hours and any blow-ups.
+2. **Blow-up** (>= 2,000 views or >= 5x the affiliate median): a follow-up thread on
+   the same product with a different angle is saved as a Zernio draft, and the owner
+   gets a notification.
+3. **One affiliate thread per day**: if tomorrow has none, a new one is written for the
+   least recently used product (never the same product two days running) and scheduled.
+4. **Sunday recycle**: the 3 best affiliate threads older than 21 days are rewritten
+   with a new hook/angle and become the next days' affiliate posts.
+5. **Golden hours**: new posts rotate 17:00 / 18:00 / 19:00. Once each slot has 3+
+   affiliate posts, the best slot becomes the default (1 in 4 posts keeps testing).
+
+Thread layout in Zernio: `content` = part 1, `platformSpecificData.threadItems` =
+parts 1–3, `firstComment` = reply_text, `topic_tag` = Kesihatan.
